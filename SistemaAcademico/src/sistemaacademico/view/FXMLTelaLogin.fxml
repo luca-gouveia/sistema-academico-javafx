@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sistemaacademico.controller.FXMLTelaLoginController">
+   <children>
+      <Pane layoutX="-3.0" layoutY="1.0" prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="604.0" layoutX="3.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="385.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#1e5799" />
+                        <Stop color="#2989d8" offset="0.5118518518518518" />
+                        <Stop color="#7db9e8" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Rectangle>
+            <JFXTextField fx:id="txtUsuario" focusColor="#1e5799" labelFloat="true" layoutX="470.0" layoutY="231.0" prefHeight="40.0" prefWidth="250.0" promptText="Usuario" />
+            <JFXPasswordField fx:id="txtSenha" focusColor="#1e5799" labelFloat="true" layoutX="471.0" layoutY="301.0" prefHeight="40.0" prefWidth="250.0" promptText="Senha" />
+            <Label layoutX="470.0" layoutY="110.0" text="Olá, faça seu login!">
+               <font>
+                  <Font size="26.0" />
+               </font></Label>
+            <JFXButton fx:id="btnLogin" layoutX="466.0" layoutY="389.0" onAction="#verificarLogin" prefHeight="47.0" prefWidth="257.0" style="-fx-background-color: #2989D8;" text="Login" textFill="WHITE" />
+            <ImageView fx:id="imgvLogo" fitHeight="128.0" fitWidth="128.0" layoutX="126.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/logo.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="76.0" layoutY="310.0" text="SISTEMA ACADEMICO" textFill="WHITE">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="180.0" layoutY="339.0" text="v0.5" textFill="WHITE" />
+            <ImageView fx:id="imgVpattern" fitHeight="395.0" fitWidth="404.0" layoutX="-13.0" layoutY="307.0" opacity="0.15" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/pattern.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
