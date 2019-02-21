@@ -6,7 +6,7 @@
 
    Basta abrir o **sistema.academico.v0.5.jar**
    
-   Login de Coordenador - 180000 / 0000
+   Login de Coordenador - User = 180000 / Password = 0000
 
 ## Imagens
 
