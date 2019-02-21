@@ -5,6 +5,7 @@
 ## Executando
 
    Basta abrir o **sistema.academico.v0.5.jar**
+   
    Login de Coordenador - 180000 / 0000
 
 ## Imagens
